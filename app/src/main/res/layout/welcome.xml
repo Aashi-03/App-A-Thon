@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context="com.aashikapoor.appathon.appathon">
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="159dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="      WELCOME"
+        android:textSize="24dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="97dp"
+        android:layout_marginStart="97dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="141dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="                  TO"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="171dp"
+        android:layout_height="51dp"
+        android:text="           MARSDEN"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="73dp"
+        app:srcCompat="@drawable/tree" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="850dp"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/tree"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+
+</RelativeLayout>
